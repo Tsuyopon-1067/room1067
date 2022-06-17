@@ -1,0 +1,111 @@
+.xscroll{
+    display: flex;
+    height: auto;  
+    width: 100vw;
+    height: 5cm;
+    overflow-x: scroll;
+}
+.xscroll::-webkit-scrollbar{
+    height: 14px; /* スクロールバーの高さ */
+}
+.xscroll::-webkit-scrollbar-thumb{
+background: #d2b48c; /* ツマミの色 */
+border-radius: 7px; /* ツマミ両端の丸み */
+}
+.xscroll::-webkit-scrollbar-track{
+background: #f5deb3; /* トラックの色 */
+border-radius: 7px; /* トラック両端の丸み */
+}
+
+/* 3要素それぞれ */
+.softElement{
+    text-align: center;
+    width: 5cm;
+    height: 3.5cm;
+    min-width: 5cm;
+    min-height: 3.5cm;
+    display: inline-block;
+    border-top:solid 10px #c2e08f;
+    padding: 0.1cm;
+    margin: 0.5cm 0.05cm 0.2cm;
+    border: solid 2px #555;
+    border-radius: 0.1cm;
+}
+.softElement a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-family:'Zen Kaku Gothic New',sans-serif;
+}
+.softElement a h1{
+    font-size: 100%;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+/* アイコン画像 */
+.softElement a img{
+    margin: 0.8vw;
+    max-width: 4cm;
+    max-height: 2.5cm;
+}
+/* 各要素のちっちゃな説明文 */
+.softElement a p{
+    font-weight: normal;
+    list-style: none;
+    font-size: 80%;
+    margin: 5px; 
+    padding: 0;
+}
+
+.lpic{
+    background-color: #c0c0c0;
+    margin: 0.7cm; 
+    border-radius: 1cm;
+}
+.lpic h1{
+    padding: 0.4cm 0 0.4cm 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-decoration: none;
+    color: #000;
+}
+.lpic img{
+    margin: 0 1cm 1cm 0; 
+    clip-path: inset(0 0 0 calc(20cm - 50vw));
+    width: 20cm;
+    float: left;			
+    position:relative;
+    left:calc(50vw - 20cm);
+}
+
+.rpic{
+    background-color: #cfc0c0;
+    margin: 0.7cm; 
+    border-radius: 1cm;
+}
+.rpic h1{
+    padding: 0.4cm 0 0.4cm 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-decoration: none;
+    color: #000;
+}
+.rpic img{
+    margin: 0 0 1cm 1cm; 
+    clip-path: inset(0 calc(20cm - 50vw) 0 0);
+    width: 20cm;
+    float: right;			
+    position:relative;
+    right: calc(50vw - 20cm);
+}
+.rpic.item{
+    display: flex;
+    flex-direction:row-reverse;
+}
