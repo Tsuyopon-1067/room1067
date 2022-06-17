@@ -62,50 +62,46 @@ border-radius: 7px; /* トラック両端の丸み */
     background-color: #c0c0c0;
     margin: 0.7cm; 
     border-radius: 1cm;
-}
-
-.lpic h1{
-    padding: 0.4cm 0 0.4cm 0;
-    margin: 0;
-    text-align: center;
-    font-family: 'Zen Kaku Gothic New', sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    text-decoration: none;
-    color: #000;
-}
-.lpic img{
-    margin: 0 1cm 1cm 0; 
-    clip-path: inset(0 0 0 calc(20cm - 50vw));
-    width: 20cm;
-    float: left;			
-    position:relative;
-    left:calc(50vw - 20cm);
+	h1{
+		padding: 0.4cm 0 0.4cm 0;
+		margin: 0;
+		text-align: center;
+		font-family: 'Zen Kaku Gothic New', sans-serif;
+		font-weight: bold;
+		font-size: 48px;
+		text-decoration: none;
+		color: #000;
+	}
+	img{
+		margin: 0 1cm 1cm 0; 
+		clip-path: inset(0 0 0 calc(20cm - 50vw));
+		width: 20cm;
+		float: left;			
+		position:relative;
+		left:calc(50vw - 20cm);
+	}
 }
 
 .rpic{
     background-color: #cfc0c0;
     margin: 0.7cm; 
     border-radius: 1cm;
-}
-.rpic h1{
-    padding: 0.4cm 0 0.4cm 0;
-    margin: 0;
-    text-align: center;
-    font-family: 'Zen Kaku Gothic New', sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    text-decoration: none;
-    color: #000;
-}
-.rpic img{
-    margin: 0 0 1cm 1cm; 
-    clip-path: inset(0 calc(20cm - 50vw) 0 0);
-    width: 20cm;
-    float: right;			
-    position:relative;
-    right: calc(50vw - 20cm);
-}
-.piccon{
-    display: flex;
+	h1{
+		padding: 0.4cm 0 0.4cm 0;
+		margin: 0;
+		text-align: center;
+		font-family: 'Zen Kaku Gothic New', sans-serif;
+		font-weight: bold;
+		font-size: 48px;
+		text-decoration: none;
+		color: #0fff00;
+	}
+	img{
+		margin: 0 0 1cm 1cm; 
+		clip-path: inset(0 calc(20cm - 50vw) 0 0);
+		width: 20cm;
+		float: right;			
+		position:relative;
+		right: calc(50vw - 20cm);
+	}
 }
