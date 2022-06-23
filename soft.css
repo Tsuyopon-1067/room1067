@@ -176,3 +176,16 @@ border-radius: 7px; /* トラック両端の丸み */
     min-height: 631px;
     object-position: right;
 }
+
+.picPwpF{
+    background: linear-gradient(to bottom right, #ffb687, #d3cc64);
+}
+.picWordle{
+    background: linear-gradient(to bottom right, #8ec687, #b8ddcd);
+}
+.picNo300{
+    background: linear-gradient(to bottom right, #ede5ab, #d1eb9c);
+}
+.picTsubo{
+    background: linear-gradient(to bottom right, #b78c7e, #bdb0a0);
+}
