@@ -58,54 +58,121 @@ border-radius: 7px; /* トラック両端の丸み */
     padding: 0;
 }
 
-.lpic{
-    background-color: #c0c0c0;
-    margin: 0.7cm; 
-    border-radius: 1cm;
-}
-
-.lpic h1{
-    padding: 0.4cm 0 0.4cm 0;
-    margin: 0;
-    text-align: center;
-    font-family: 'Zen Kaku Gothic New', sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    text-decoration: none;
-    color: #000;
-}
-.lpic img{
-    margin: 0 1cm 1cm 0; 
-    clip-path: inset(0 0 0 calc(20cm - 50vw));
-    width: 20cm;
-    float: left;			
-    position:relative;
-    left:calc(50vw - 20cm);
-}
-
 .rpic{
     background-color: #cfc0c0;
     margin: 0.7cm; 
     border-radius: 1cm;
 }
 .rpic h1{
-    padding: 0.4cm 0 0.4cm 0;
+    padding: 0.8cm 0.6cm 0.4cm 0.8cm;
     margin: 0;
-    text-align: center;
+    text-align: left;
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 16px;
     text-decoration: none;
     color: #000;
 }
-.rpic img{
-    margin: 0 0 1cm 1cm; 
-    clip-path: inset(0 calc(20cm - 50vw) 0 0);
-    width: 20cm;
-    float: right;			
-    position:relative;
-    right: calc(50vw - 20cm);
-}
 .piccon{
     display: flex;
+}
+.rpic p{
+    text-align: left;
+    padding: 8px;
+    margin: 0.2cm;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    word-wrap: break-word;
+    min-width: 0;
+    display: inline-block;
+}
+.rpic .dekap p{
+    font-weight: 900;
+    font-size: 64px;
+}
+.rpic p span{
+    display: inline-block;
+}
+.rpic .normalp p{
+    font-weight: bold;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+.rpic .item{
+    width: 50%;
+    flex: 1;
+    margin: 0.6cm 1cm 1cm 1cm;
+}
+.rpic .itemp{
+    width: 50%;
+    margin: auto 0 auto 0.5cm;
+    padding: 0;
+    text-align: left;
+    flex: 1;
+	overflow: hidden;
+}
+.rpic .itemp img{
+    width: 700px;
+    margin: 0.8cm 0;
+}
+
+
+
+.lpic{
+    background-color: #cfc0c0;
+    margin: 0.7cm; 
+    border-radius: 1cm;
+}
+.lpic h1{
+    padding: 0.8cm 0.6cm 0.4cm 0.8cm;
+    margin: 0;
+    text-align: left;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+.lpic p{
+    text-align: left;
+    padding: 8px;
+    margin: 0.2cm;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    word-wrap: break-word;
+    min-width: 0;
+    display: inline-block;
+}
+.lpic .dekap p{
+    font-weight: 900;
+    font-size: 64px;
+}
+.lpic p span{
+    display: inline-block;
+}
+.lpic .normalp p{
+    font-weight: bold;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+.lpic .item{
+    width: 50%;
+    flex: 1;
+    margin: 0.6cm 1cm 1cm 1cm;
+}
+.lpic .itemp{
+    width: 50%;
+    margin: auto 0.5cm auto 0;
+    padding: 0;
+    text-align: right;
+    flex: 1;
+	overflow: hidden;
+}
+.lpic .itemp img{
+    width: 700px;
+    margin: 0.8cm 0;
+}
+.lpic .itemp .wordle{
+    width: auto;
+    height: 631px;
+    min-height: 631px;
+    object-position: right;
 }
